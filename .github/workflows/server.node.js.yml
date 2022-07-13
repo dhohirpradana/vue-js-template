@@ -35,7 +35,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             ls
-            cd vue-js-template # we move into our app's folder
+            cd /home/dhohirpradana/vue-js-template # we move into our app's folder
             git pull # we pull any changes from git
             npm prune # we remove any unused dependencies
             npm install # we install any missing dependencies
