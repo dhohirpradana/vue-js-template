@@ -35,7 +35,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             ls
-            git clone https://github.com/dhohirpradana/vue-js-template.git vue-js-template
             cd vue-js-template # we move into our app's folder
             git pull # we pull any changes from git
             npm prune # we remove any unused dependencies
