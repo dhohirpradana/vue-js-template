@@ -2,7 +2,7 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## visit http://dhohirdev.my.id:4000 to see
+## Visit http://dhohirdev.my.id:4000 to see
 
 ## Recommended IDE Setup
 
