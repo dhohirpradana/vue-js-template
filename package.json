@@ -2,7 +2,8 @@
   "name": "vue-project",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 4000",
+    "serve": "vue-cli-service serve --port 4000",
     "build": "vite build",
     "preview": "vite preview --port 4173"
   },
@@ -11,6 +12,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/cli-service": "^5.0.8",
     "vite": "^2.9.12"
   }
 }
